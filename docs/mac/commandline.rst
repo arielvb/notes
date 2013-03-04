@@ -42,6 +42,18 @@ And add to the end or modify previous declarations::
 
     export PATH=${PATH}:/usr/local/opt/gettext/bin
 
+grolwnotify
+++++++++++
+
+`growlnotify http://growl.info/extras.php#growlnotify` is a command line tool to display notifications from the command line with `Growl`.
+
+For example, lauchn a fake notification from Disk Utility::
+
+	growlnotify -t "Warning" -a Disk\ Utility -m "Replace your disk!"
+
+More interesting is use a custom image icon, with the *--image* parameter::
+
+	growlnotify -t "My App notification" --image icatpy/icat.png  -m "Hello!"
 
 Remove MacOsX custom files from zip
 -----------------------------------

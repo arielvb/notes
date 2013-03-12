@@ -14,7 +14,7 @@ Extend Command line tools
 -------------------------
 
 brew
-+++++
+++++
 
 
     Homebrew installs the stuff you need that Apple didn’t.
@@ -54,6 +54,26 @@ For example, lauchn a fake notification from Disk Utility::
 More interesting is use a custom image icon, with the *--image* parameter::
 
 	growlnotify -t "My App notification" --image icatpy/icat.png  -m "Hello!"
+
+imagemagick
++++++++++++
+
+imagemagick is a image processing program; it's a group of commandline programs: convert, mogrify...
+
+SVG support
+~~~~~~~~~~~
+
+Install using `brew`_ and the command -with-librsvg::
+
+	brew install imagemagick --with-libsrvg librsvg
+
+Inkscape
+++++++++
+
+Convert svg to png using inkscape, first you must download and install Inkscape::
+
+	/Applications/Inkscape.app/Contents/Resources/bin/inkscape -f test.svg -e test.png
+
 
 Remove MacOsX custom files from zip
 -----------------------------------

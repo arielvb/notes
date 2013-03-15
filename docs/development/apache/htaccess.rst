@@ -1,6 +1,10 @@
 htaccess: Tips
 ==============
 
+..note::
+
+    This notes are in Spanish
+
 Redirigir http a https
 ----------------------
 

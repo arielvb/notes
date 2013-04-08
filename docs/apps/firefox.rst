@@ -1,8 +1,19 @@
 Firefox
 =======
 
-Instal·lació des de els repositoris de Mozilla
-----------------------------------------------
+Pàgines especials
+-----------------
+
+No totes les opcions de Firefox estàn accesibles des de les opcions dels menus. Algunes només es pot accedir escribint una adreça concreta a la barra de navegació i algunes de les opcions del menu tenen un accés també des de aquesta:
+
+- `about:home` la pàgina definida com predeterminada.
+- `about:addons` per accedir a la finestra de complements.
+- `about:memory` informació sobre la gestió de memòria.
+- `about:support` informació sobre la configuració tecnica del navegador.
+- `about:config` consulta i modificació de paràmetres configurables del navegador i complements.
+
+Ubuntu - Instal·lació des de els repositoris de Mozilla
+-------------------------------------------------------
 
 
 #. Afegir repositori i instal·lar firefox::
@@ -22,25 +33,28 @@ Instal·lació des de els repositoris de Mozilla
 
 #. Clicar a l'icona d'eines i triar l'opció *Check for updates / Comprova si hi ha actualitzacions*
 
-#. Reiniciar firefox.
+#. Reiniciar Firefox.
 
 
 Complements
 -----------
 
-**about:addons**
+Url: **about:addons**
 
 Llista de complements intersants:
 
-:Firebug: :)
-:Web Developer: barra d'eines per desenvolupadors
-:Pearl Crescent Page Saver: permet desar pàgina sencera (o no) com imatge (impr pant++)
+:Firebug: Per a tots aquells que creen webs i aquells que fan web-scrapping:)
+:Web Developer: barra d'eines per desenvolupadors, permet desactivar la memòria cau del navegador, javascript...
+:Pearl Crescent Page Saver: permet desar pàgina sencera, o la part visible, com imatge.
 :JSONView: visualitza les respostes JSON en colors i amb format directament al navegador [by laura.p]
+:httpsEveryWhere: activa la navegació per https a una serie de llocs web on no ho està de forma predeterminada.
+:adblock plus: bloqueja els anuncis de les pàgines web. Per que una navegació sense publicitat no té preu.
+
 
 Modify about:home search engine
 -------------------------------
 
-Modify the key **search-engine** in the chromeappstore.sqlite of your profile.
+Modify the key **search-engine** in the chromeappstore.sqlite inside your profile.
 
 Default value in firefox-beta 17 is::
 
@@ -55,7 +69,6 @@ To set duckduckgo as search engine::
 The easy way, in the about:home page, paste in the url field::
 
 	javascript:{localStorage["search-engine"]="{\"name\":\"Google\",\"searchUrl\":\"http://www.google.com/search?q=_searchTerms_&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a\"}";void(0);}
-
 
 
 .. TODO backup command

@@ -43,7 +43,7 @@ And add to the end or modify previous declarations::
     export PATH=${PATH}:/usr/local/opt/gettext/bin
 
 grolwnotify
-++++++++++
++++++++++++
 
 `growlnotify http://growl.info/extras.php#growlnotify` is a command line tool to display notifications from the command line with `Growl`.
 

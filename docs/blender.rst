@@ -12,7 +12,7 @@ You will find also in the website some `short videos <http://cgcookie.com/blende
 To know more
 ------------
 
-- Export to video instructions: http://www.youtube.com/watch?v=RHLXJkjB8ZI
+- `Export to video <http://www.youtube.com/watch?v=RHLXJkjB8ZI>`_
 
 Books
 +++++
@@ -24,19 +24,20 @@ Tutorials
 - http://blendertalkies.blogspot.com.es
 - http://www.tutorialsforblender3d.com/
 
-Textures
-++++++++
+Textures and Materials
+++++++++++++++++++++++
 
 A list of free (or not) websites with textures for your models.
 
 - http://www.cgtextures.com/
 - http://www.imageafter.com/
 - http://www.dougturner.net/blendersite/
+- `Open Material Repository <http://matrep.parastudios.de/>`_ (`new site <http://www.blender-materials.org/>`_ under construction since 2009?)
 
 Scripting
 +++++++++
 
-- Tips and Tricks: http://www.blender.org/documentation/blender_python_api_2_59_2/info_tips_and_tricks.html
+- `Tips and Tricks <http://www.blender.org/documentation/blender_python_api_2_59_2/info_tips_and_tricks.html>`_
 
 
 Others

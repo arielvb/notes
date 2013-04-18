@@ -44,3 +44,7 @@ Others
 ++++++
 
 Sintel Game (Game created with blender)
+
+- `Project Lightning - The game to show off what Blender Game Engine is capable of <http://code.google.com/p/project-lightning/>`_
+- `GSLS Shader Repository <http://urfoex.blogspot.com.es/2013/03/bge-glsl-glsl-shader-repository-addon.html>`_
+

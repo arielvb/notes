@@ -17,8 +17,11 @@ unoconv_ is a command line tool to convert LibreOffice documents
 
 .. _unoconv: https://github.com/dagwieers/unoconv
 
+
 References
 ----------
 
 - https://en.wikipedia.org/wiki/Libreoffice
 - https://help.libreoffice.org/Common/Starting_the_Software_With_Parameters
+- http://rocreguant.com/como-instalar-un-nuevo-diccionariocorrector-para-libreoffice-en-ubuntu/270/
+- http://www.computercorrect.com/2011/desktop-applications/openoffice-org/custom-fill-colors-in-openoffice-org/

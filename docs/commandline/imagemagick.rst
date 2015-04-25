@@ -23,3 +23,10 @@ Creating gifs
 -------------
 
  convert -delay 20 -loop 0 -resize 800x522 *.jpg ../grup.gif
+
+Slicing images
+--------------
+
+Slice and image in 3::
+
+	convert -crop 34%x100% +repage beach.jpg beach_%d.jpg

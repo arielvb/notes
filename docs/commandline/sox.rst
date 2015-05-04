@@ -72,6 +72,10 @@ SoX is really easy to use, if you know how to use a commandline program. Take a 
 
 	sox filename newfile.ogg
 
+#. Concatenate two or more audio files::
+
+	sox filename1.wav filename2.wav filename3.wav file1to3.wav
+
 
 Advanced usage
 ++++++++++++++

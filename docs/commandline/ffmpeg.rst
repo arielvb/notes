@@ -1,8 +1,16 @@
 Ripping DVD with FFMPEG
 =======================
 
+Concatenate files
+-----------------
 
-ffmpeg -i concat:VTS_01_0.VOB\|VTS_01_1.VOB\|VTS_01_2.VOB\|VTS_01_3.VOB -vcodec libxvid -qscale 0 ~/my_movie.mp4
+With ffmpeg, you can concatenate video/audio files, for example if you want to concat a DVD movie in a single file::
+
+	ffmpeg -i concat:VTS_01_0.VOB\|VTS_01_1.VOB\|VTS_01_2.VOB\|VTS_01_3.VOB -vcodec libxvid -qscale 0 ~/my_movie.mp4
+
+Or if you want a single track with some of your favorites songs::
+
+	ffmpeg -i concat:song1.mp3\|song2.mp3 -c copy songs.mp3
 
 Rotate video
 ------------
@@ -17,6 +25,7 @@ For the transpose parameter you can pass:
 	1 = 90Clockwise
 	2 = 90CounterClockwise
 	3 = 90Clockwise and Vertical Flip
+
 
 
 Tips
